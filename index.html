@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vance Banks - Product Designer</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaron's Portfolio</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  .bg-hero {
+    background-image: url('cyber.png');
+    background-size: cover;
+    background-position: center;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
 </head>
 <body>
-    <nav>
-        <ul class="navigation">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <header>
-        <h1>Hello, I am Aaron Lin</h1>
-        <p>I am a Product Designer with 10+ years experience, focusing in User Interface and User Experience. I am also a proud dog dad, and a board game enthusiast.</p>
-        <img src="chia.png" alt="Aaron Lin">
-    </header>
+<div class="bg-hero h-screen flex flex-col justify-between">
+  <nav class="pt-8 px-6">
+    <ul class="flex justify-end space-x-6 text-white text-lg">
+      <li><a href="#" class="hover:text-gray-300">HOME</a></li>
+      <li><a href="#" class="hover:text-gray-300">PROJECTS</a></li>
+      <li><a href="#" class="hover:text-gray-300">ABOUT</a></li>
+      <li><a href="#" class="hover:text-gray-300">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div class="px-6 mb-20 text-center text-white">
+    <h1 class="text-6xl font-bold">Hi, I'm Aaron.</h1>
+    <p class="mt-4 text-xl">
+      I'm a Computer Science graduate with a passion for software development and part-time content creator.
+    </p>
+  </div>
+</div>
 </body>
 </html>
